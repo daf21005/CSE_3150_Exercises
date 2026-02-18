@@ -1,3 +1,5 @@
 # CSE 3150 Exercises
-This Repo contains all exercies created for submission in CSE 3150  
-This currently holds exercises 2 and 3 (1 is located at a different repo)
+David Flores  
+This Repo contains all exercies I created for submission in CSE 3150
+
+Don't forget to change directory to the correct folder for each corresponding exercise
