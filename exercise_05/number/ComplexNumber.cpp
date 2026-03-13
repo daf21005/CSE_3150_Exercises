@@ -45,9 +45,9 @@ bool operator!=(const ComplexNumber & left, const ComplexNumber & right){
 
 // this was changed where we dont have to use getReal but simply call real and imag 
 ostream & operator<<(ostream & os, const ComplexNumber & complex){
-    os << "real: "
+    os << "real = "
         << complex.real
-        << " imag: "
+        << ", imag = "
         << complex.imag;
 
     return os;

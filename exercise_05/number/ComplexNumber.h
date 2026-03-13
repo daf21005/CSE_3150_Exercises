@@ -9,12 +9,12 @@ class ComplexNumber{
     double real, imag;
 
     public:
-        // constructors:
+        // constructors (default, copy, initialize):
         ComplexNumber();
         ComplexNumber(ComplexNumber & complex);
         ComplexNumber(double _real, double _imag);
 
-        // something
+        // operator overloads:
         ComplexNumber & operator=(const ComplexNumber & complex);
         ComplexNumber & operator+=(const ComplexNumber & complex);
 
@@ -25,7 +25,7 @@ class ComplexNumber{
         void setReal(double _real);
         void setImag(double _imag);
 
-        // something:
+        // friend operator overloads:
         friend bool operator==(const ComplexNumber & left, const ComplexNumber & right);
         friend bool operator!=(const ComplexNumber & left, const ComplexNumber & right);
         friend ostream & operator<<(ostream & os, const ComplexNumber & complex); // moved inside of class - makes things slighlty easy
